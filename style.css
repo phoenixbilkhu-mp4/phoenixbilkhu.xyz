@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Block Berthold";
+  src: url('fonts/Block Berthold Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Flexure";
+  src: url('fonts/Flexure.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Zurich Extended";
+  src: url('fonts/Zurich Extended BT.ttf') format('truetype');
+}
+
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  background-color: #B02C37;
+  padding: 0;
+}
+
+.main {
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /*background-color: #B02C37;*/
+  /*background-color: #BF5441;*/
+  background-image: url(images/bg_image02.png);
+  background-size: 25% auto;
+  background-repeat: repeat;
+  margin: 0;
+  padding-bottom: 15%;
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: center;
+  align-content: center;
+  background-color: #e6dfcf;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  /*margin-left: auto;*/
+  padding-left: 1%;
+  flex: 1;
+}
+
+h1 {
+  display: inline-block;
+  font-family: "Block Berthold";
+  transform: scaleY(0.5);
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*justify-self: center;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+.right {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ddd4be;
+}
+
+ul li a {
+  font-family: "Flexure";
+  display: block;
+  color: #BF5441;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #ece7db;
+  background-color: #BF5441;
+
+}
+
+ul li a:active {
+  background-color: #B02C37;
+}
+
+.videodiv {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 0%;
+  margin-left: 0%;
+  width:100%;
+  /*background-color: #cbb497;*/
+  background-image: url(images/bg_image01.png);
+  background-size: 25% auto;
+  background-repeat: repeat;
+
+
+  
+}
+video {
+  display: block;
+  margin: 0 auto;
+}
+.bio {
+  font-family: "Zurich Extended";
+  margin: 5% auto 5% auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: #e6dfcf;
+  font-weight: bold;
+}
+.experience {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.filmtitle {
+  font-family: "Flexure";
+  font-size: 20px;
+  margin: 0;
+  margin-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: #e6dfcf;
+  font-weight: bold;
+}
+.filmrole {
+  font-family: "Zurich Extended";
+  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: #dfaa90;
+  font-weight: bold;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10%;
+  padding-top: 3%
+}
+
+.galleryhighlight {
+  flex: 1;
+  border: 10px solid #ddd4be;
+  margin: 2%;
+}
+.galleryitem {
+  display: flex;
+  /*aspect-ratio: 16/9;*/
+  margin: 7px;
+  border: 6px solid #ddd4be;
+  width: 45%;
+  max-width: 400px;
+  min-width: 230px;
+  align-content: center;
+  justify-content: center;
+  background-color: #000000
+}
+.galleryitem img{
+  width: 100%;
+  align-self: center;
+  height: auto;
+}
+
+.galleryitem video{
+  width: 100%;
+  height: auto;
+}
+
+
+.space {
+  flex-grow: 0.75;
+}
+.footer {
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 0;
+  width: 100%;
+  /*background-color: #BF5441;*/
+  background-color: #B02C37;
+}
+
+.contactcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.contactlink {
+  text-align: center;
+  color: #f5e5dd
+}
+
+a{
+  font-family: "Flexure";
+  text-decoration: none;
+  font-weight: bold;
+  color: #ece7db;
+}
+a:hover{
+  color: #da7165;
+}
+
+.footertextcontainer{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.footertext {
+  font-family: "Flexure";
+  color: #da7165;
+  margin-bottom: 0;
+  margin-top: 2%;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-bottom: 0;
+  display: inline-block;
+  transform: scaleY(0.7);
+  /*margin-left: 50%;*/
+  /*margin-right: auto;*/
+}
