@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "websitecopy",
+  "name": "phoenixbilkhu-xyz",
   "compatibility_date": "2026-05-09",
   "observability": {
     "enabled": true
