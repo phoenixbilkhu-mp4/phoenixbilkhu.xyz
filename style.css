@@ -25,7 +25,12 @@
 
 @font-face {
   font-family: "Pusab";
-  src: url('fonts/PUSAB___.otf') format('opentype');
+  src: url('fonts/PUSAB___.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Kabel";
+  src: url('fonts/Kabel Black.ttf') format('truetype');
 }
 
 @font-face {
