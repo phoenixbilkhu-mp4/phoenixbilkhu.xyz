@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: "Kabel";
-  src: url('fonts/Kabel Black.ttf') format('truetype');
+  src: url('fonts/Kabel-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -102,7 +102,7 @@ ul {
 }
 
 ul li a {
-  font-family: "kabel";
+  font-family: "Kabel";
   display: block;
   color: #BE9AB6;
   padding: 20px 30px;
