@@ -239,6 +239,7 @@ video {
 
 .soundgallery {
   padding: 3%;
+  padding-bottom: 0;
   /*padding-top: 3%;*/
   display: flex;
   flex-direction: column;
@@ -250,6 +251,7 @@ video {
   padding: 1%;
   flex-direction: row;
   justify-content: space-between;
+  /*align-content: stretch;*/
   
   /*background-image: url(images/bg_image01.png);*/
   background-image: url(images/background02.svg);
@@ -289,7 +291,21 @@ video {
 .instagram-media {
   height: 289px;
   width: auto;
+  /*display: flex;*/
+}
+
+.youtube-media  {
+  /*height: 200%;*/
+  /*width: 100%;*/
+  size: 200%;
+  /*display: flex;*/
+}
+
+.media-container {
+  width: fit-content;
+  height: fit-content;
   display: flex;
+  /*align-content: center;*/
 }
 
 .soundgalleryaudio{
@@ -299,14 +315,13 @@ video {
   flex-direction: column;
   justify-content: center;
   width: auto;
-    
 }
 
 .embedcontainer {
   display: flex;
   justify-content: center;
   justify-self: center;
-  margin: 5% 10% 5% 10%;
+  margin: 0% 10% 5% 10%;
   /*margin-top: 5%*/
   /*max-width: 900px;*/
 }
