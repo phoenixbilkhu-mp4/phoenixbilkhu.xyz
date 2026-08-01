@@ -247,9 +247,9 @@ video {
 .soundgalleryitem {
   margin-bottom: 5%;
   display: flex;
-  padding: 2%;
+  padding: 1%;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   
   /*background-image: url(images/bg_image01.png);*/
   background-image: url(images/background02.svg);
@@ -287,7 +287,7 @@ video {
 }
 
 .instagram-media {
-  height: auto;
+  height: 289px;
   width: auto;
   display: flex;
 }
