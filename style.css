@@ -148,20 +148,20 @@ video {
   display: flexbox;
 }
 .spacer{
-  border: 1px solid #d4bc8f;
+  border: 1px solid #d4a68f;
 }
 .bio p{
   font-family: ""ITC Avant Garde"";
-  margin: 5% auto 5% auto;
+  margin: 7% auto 7% auto;
   /*padding-left: 25%;*/
-  font-size: 150%;
+  font-size: 130%;
   /*padding-right: 25%;*/
   text-align: center;
-  color: #354242;
+  color: #8c5a78;
   font-weight: lighter;
 }
 .software-icons {
-  max-width: 75%;
+  max-width: 60%;
   height: auto;
   display: block;
   margin-left: auto;
