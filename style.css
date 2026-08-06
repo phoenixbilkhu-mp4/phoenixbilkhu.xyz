@@ -119,6 +119,10 @@ ul li a:active {
   background-color: #BE9AB6;
 }
 
+a.active {
+  background-color: #BE9AB6;
+  color: #f6e7cb;
+}
 
 
 .videodiv {
